@@ -1,5 +1,5 @@
 {
-    "name": "chumper/datatable",
+    "name": "moddyx/datatable",
     "description": "This is a fork of Chumper/Datatable laravel 4 package for the server and client side of datatables at http://datatables.net/",
     "keywords" : ["laravel","datatables", "ajax", "jquery"],
     "license": "MIT",
