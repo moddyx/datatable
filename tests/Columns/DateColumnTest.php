@@ -1,4 +1,4 @@
-<?php namespace Chumper\Datatable\Columns;
+<?php namespace Moddyx\Datatable\Columns;
 
 use Carbon\Carbon;
 use Mockery;

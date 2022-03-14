@@ -1,9 +1,9 @@
 <?php
 
-use Chumper\Datatable\Columns\FunctionColumn;
-use Chumper\Datatable\Engines\BaseEngine;
-use Chumper\Datatable\Engines\EngineInterface;
-use Chumper\Datatable\Engines\QueryEngine;
+use Moddyx\Datatable\Columns\FunctionColumn;
+use Moddyx\Datatable\Engines\BaseEngine;
+use Moddyx\Datatable\Engines\EngineInterface;
+use Moddyx\Datatable\Engines\QueryEngine;
 use Illuminate\Support\Collection;
 
 class QueryEngineTest extends PHPUnit_Framework_TestCase {

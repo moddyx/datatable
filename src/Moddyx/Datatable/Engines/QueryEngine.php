@@ -1,6 +1,6 @@
-<?php namespace Chumper\Datatable\Engines;
+<?php namespace Moddyx\Datatable\Engines;
 
-use Chumper\Datatable\Datatable;
+use Moddyx\Datatable\Datatable;
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Relations\Relation;
 use Illuminate\Support\Collection;

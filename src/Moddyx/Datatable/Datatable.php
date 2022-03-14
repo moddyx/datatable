@@ -1,13 +1,13 @@
-<?php namespace Chumper\Datatable;
+<?php namespace Moddyx\Datatable;
 
-use Chumper\Datatable\Engines\CollectionEngine;
-use Chumper\Datatable\Engines\QueryEngine;
+use Moddyx\Datatable\Engines\CollectionEngine;
+use Moddyx\Datatable\Engines\QueryEngine;
 use Input;
 use Request;
 
 /**
  * Class Datatable
- * @package Chumper\Datatable
+ * @package Moddyx\Datatable
  */
 class Datatable {
 

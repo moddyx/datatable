@@ -1,6 +1,6 @@
 <?php
 
-use Chumper\Datatable\Engines\CollectionEngine;
+use Moddyx\Datatable\Engines\CollectionEngine;
 use Illuminate\Support\Collection;
 use Illuminate\Support\Facades\Input;
 use Orchestra\Testbench\TestCase;
@@ -37,14 +37,14 @@ class BaseEngineTest extends TestCase {
         $this->engine->addColumn('foo', 'bar');
 
         $this->assertInstanceOf(
-            'Chumper\Datatable\Columns\TextColumn',
+            'Moddyx\Datatable\Columns\TextColumn',
             $this->engine->getColumn('foo')
         );
 
         $this->engine->addColumn('foo2', function($model){return $model->fooBar;});
 
         $this->assertInstanceOf(
-            'Chumper\Datatable\Columns\FunctionColumn',
+            'Moddyx\Datatable\Columns\FunctionColumn',
             $this->engine->getColumn('foo2')
         );
 
@@ -57,7 +57,7 @@ class BaseEngineTest extends TestCase {
     {
         $this->engine->addColumn('foo','Bar');
         $this->assertInstanceOf(
-            'Chumper\Datatable\Columns\TextColumn',
+            'Moddyx\Datatable\Columns\TextColumn',
             $this->engine->getColumn('foo')
         );
 

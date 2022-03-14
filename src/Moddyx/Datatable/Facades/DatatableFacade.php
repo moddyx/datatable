@@ -1,4 +1,4 @@
-<?php namespace Chumper\Datatable\Facades;
+<?php namespace Moddyx\Datatable\Facades;
 
 use Illuminate\Support\Facades\Facade;
 

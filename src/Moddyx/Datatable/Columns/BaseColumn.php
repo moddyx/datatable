@@ -1,8 +1,8 @@
-<?php namespace Chumper\Datatable\Columns;
+<?php namespace Moddyx\Datatable\Columns;
 
 /**
  * Class BaseColumn
- * @package Chumper\Datatable\Columns
+ * @package Moddyx\Datatable\Columns
  */
 abstract class BaseColumn {
 

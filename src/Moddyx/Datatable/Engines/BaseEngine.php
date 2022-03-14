@@ -1,10 +1,10 @@
-<?php namespace Chumper\Datatable\Engines;
+<?php namespace Moddyx\Datatable\Engines;
 
 use Exception;
 use Assetic\Extension\Twig\AsseticFilterFunction;
-use Chumper\Datatable\Columns\DateColumn;
-use Chumper\Datatable\Columns\FunctionColumn;
-use Chumper\Datatable\Columns\TextColumn;
+use Moddyx\Datatable\Columns\DateColumn;
+use Moddyx\Datatable\Columns\FunctionColumn;
+use Moddyx\Datatable\Columns\TextColumn;
 use Illuminate\Support\Collection;
 use Illuminate\Support\Facades\Input;
 use Illuminate\Support\Facades\Response;
@@ -13,7 +13,7 @@ use Illuminate\Support\Facades\Config;
 
 /**
  * Class BaseEngine
- * @package Chumper\Datatable\Engines
+ * @package Moddyx\Datatable\Engines
  */
 abstract class BaseEngine {
 
