@@ -1,21 +1,8 @@
 <?php namespace Moddyx\Datatable;
 
 use Illuminate\Support\ServiceProvider;
-use View;
 
 class DatatableServiceProvider extends ServiceProvider {
-
-	/**
-	 * Indicates if loading of the provider is deferred.
-	 *
-	 * @var bool
-	 */
-	protected $defer = false;
-
-    public function boot()
-    {
-        $this->package('moddyx/datatable');
-    }
 
     /**
 	 * Register the service provider.
@@ -24,9 +11,8 @@ class DatatableServiceProvider extends ServiceProvider {
 	 */
     public function register()
     {
-        $this->app['datatable'] = $this->app->share(function($app)
-        {
-            return new Datatable;
+        $this->app['datatable'] = $this->app->instance('datatable', function ($app) {
+            return new Datatable();
         });
     }
 

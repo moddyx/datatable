@@ -80,7 +80,7 @@ class Table {
 
     function __construct()
     {
-        $this->config = Config::get('datatable::table');
+        $this->config = Config::get('moddyx.datatable.table');
 
         $this->setId( $this->config['id'] );
         $this->setClass( $this->config['class'] );
@@ -327,7 +327,7 @@ class Table {
 
     public function setId($id = '')
     {
-        $this->idName = empty($id)? str_random(8) : $id;
+        $this->idName = empty($id)? \Str::random(8) : $id;
         return $this;
     }
 
